@@ -764,7 +764,7 @@ if ( ! isset( $_REQUEST['sidefunc'] )
 
     <li>
         <a href="plugins/Moodle/SimpleReport/SimpleReport.php">
-<!--            <a href="Modules.php?modname=SimpleReport/SimpleReport.php">-->
+<!--           <a href="Modules.php?modname=SimpleReport/SimpleReport.php">-->
             <i class="module-icon Reports"></i> SimpleReport
         </a>
     </li>

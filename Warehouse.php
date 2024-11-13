@@ -472,6 +472,7 @@ $RosarioCoreModules = [
 	'Student_Billing',
 	'Food_Service',
 	'Resources',
+    'SimpleReport',
 	'Custom',
 ];
 

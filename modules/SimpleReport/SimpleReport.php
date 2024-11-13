@@ -49,6 +49,7 @@ if (count($data) > 0) {
     echo '<tr><td colspan="5">No data found</td></tr>';
 }
 
+
 echo '</table>';
 
 $conn->close();

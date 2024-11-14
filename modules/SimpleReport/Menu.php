@@ -1,6 +1,6 @@
 <?php
 /**
- * Resources module Menu entries
+ * SimpleReport module Menu entries
  *
  * @uses $menu global var
  *
@@ -22,4 +22,4 @@ $menu['SimpleReport']['teacher'] = [
 	'SimpleReport/SimpleReport.php' => _( 'SimpleReport' ),
 ] + issetVal( $menu['SimpleReport']['teacher'], [] );
 
-$menu['Resources']['parent'] = $menu['SimpleReport']['teacher'] + issetVal( $menu['SimpleReport']['parent'], [] );
+$menu['SimpleReport']['parent'] = $menu['SimpleReport']['teacher'] + issetVal( $menu['SimpleReport']['parent'], [] );
